@@ -1,0 +1,17 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_IpkVMe()
+[Activity
+    Text = ${SendActivity_IpkVMe_text()}
+]
+
+# SendActivity_IpkVMe_text()
+- Here are the members on this conversation: ${dialog.conversationMembers}
